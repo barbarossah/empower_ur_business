@@ -1,0 +1,19 @@
+<svg width="152.000000" height="75.000000" viewBox="0 0 152 75" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip7322_554">
+			<rect id="fa-brands:pied-piper-hat" rx="0.000000" width="101.000000" height="74.000000" transform="translate(25.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip7322_553">
+			<rect id="col-md-3" rx="0.000000" width="151.000000" height="74.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip7322_553)">
+		<rect id="fa-brands:pied-piper-hat" rx="0.000000" width="101.000000" height="74.000000" transform="translate(25.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip7322_554)">
+			<path id="Vector" d="M127 0.14C114.12 8.82 112.75 15.12 111.63 17.05C110.56 19.03 109.77 26.82 107.92 30.59C106.05 34.42 99.28 37.43 97.38 38.69C95.52 39.96 92.87 44.87 90.71 49.09C73.48 48.38 64.03 55.38 49.4 64.26C54.08 62.68 56.3 61.55 56.3 61.55C71.31 55.72 78.5 50.49 101.1 53.58C101.27 53.58 101.4 53.68 101.54 53.71C102.16 54.07 102.39 54.83 102.04 55.46L93.45 70.98C93.05 71.74 92.2 72.14 91.36 71.97C71.15 68.11 55.2 74.77 40.53 74.98C28.84 75.16 25 69.55 25 69.29C25 69.11 25.09 69.02 25.27 69.02C25.27 69.02 31.37 69.02 41.7 66.54C53.43 43.81 63.88 35.86 75.26 35.86C75.26 35.86 86.69 35.86 89.7 45.89C93.33 39.46 94.21 37.92 94.21 37.92C95.06 36.39 99.79 25.41 107.98 15.01C116.19 4.64 122.39 2.07 127 0.14Z" fill="#737373" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
