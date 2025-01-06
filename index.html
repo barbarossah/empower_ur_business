@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- VIEWPORT SECTION START -->
-    <div class="viewport-background">
+    <div class="viewport-wrapper">
       <!-- HEADER START -->
       <header class="header">
         <div class="container">
@@ -30,7 +30,15 @@
                 </li>
               </ul>
             </div>
+
             <!-- HIDDEN MENU START -->
+            <div class="hidden-header-actions">
+              <img
+                src="./assets/icons/search.svg"
+                alt="search-icon"
+                width="24"
+              /><img src="./assets/icons/shopping-cart.svg" alt="" width="24" />
+            </div>
             <label class="hidden-header__menu-btn" for="menu">
               <img
                 class="hidden-header__menu-btn"
@@ -38,10 +46,9 @@
                 alt=""
               />
             </label>
+
             <input class="hidden-input" type="checkbox" id="menu" />
             <div class="hidden-header__menu-nav">
-              <a class="header__logo-link" href="#">Indicorp</a>
-
               <ul class="hidden-header__list">
                 <li class="hidden-header__list-item">
                   <a class="hidden-header__nav-link" href="#">Home</a>
@@ -58,6 +65,14 @@
               </ul>
             </div>
             <!-- HIDDEN MENU END -->
+            <!-- HEADER-ACTIONS START -->
+            <div class="header-actions">
+              <img src="./assets/icons/search.svg" alt="search-icon" /><img
+                src="./assets/icons/shopping-cart.svg"
+                alt=""
+              />
+            </div>
+            <!-- HEADER-ACTIONS END -->
           </div>
         </div>
       </header>
@@ -82,21 +97,34 @@
             </div>
             <div class="hero-cards">
               <div class="hero-card">
-                <img src="./assets/icons/brief-case.svg" alt="case-icon" />
+                <img
+                  class="hero-card__icon"
+                  src="./assets/icons/brief-case.svg"
+                  alt="case-icon"
+                />
                 <h4 class="hero-card__title">Digital Marketing</h4>
                 <p class="hero-card__text">
                   We focus on ergonomics and meeting you where you work.
                 </p>
               </div>
               <div class="hero-card">
-                <img src="./assets/icons/store.svg" alt="store-icon" />
+                <img
+                  class="hero-card__icon"
+                  src="./assets/icons/store.svg"
+                  alt="store-icon"
+                />
                 <h4 class="hero-card__title">National top 50 firms</h4>
                 <p class="hero-card__text">
                   Just type what's on your mind and we'll get you there.
                 </p>
               </div>
-              <div class="hero-card hero-card--active">
-                <img src="./assets/icons/carbon_notebook.svg" alt="" />
+              <div class="hero-card">
+                <!--hero-card--active-->
+                <img
+                  class="hero-card__icon"
+                  src="./assets/icons/carbon_notebook.svg"
+                  alt=""
+                />
                 <h4 class="hero-card__title">Digital Marketing</h4>
                 <p class="hero-card__text">
                   the quick fox jumps over the lazy dog
@@ -116,31 +144,32 @@
       <section class="stats">
         <div class="container">
           <div class="stats-wrapper">
-            <h2 class="stats__title section-heading">WHY CHOOSE US</h2>
-            <p class="stats__text">
+            <h2 class="stats__title section__title">WHY CHOOSE US</h2>
+            <p class="section__subtitle">
               Problems trying to resolve the conflict between the two major
-              realms of Classical physics: Newtonian mechanics
+              realms <br />
+              of Classical physics: Newtonian mechanics
             </p>
             <div class="stats-cards">
               <div class="stats-card">
                 <img src="./assets/icons/people.svg" alt="people-icon" />
-                <p>3K</p>
-                <h4>CASES DONE</h4>
+                <p class="stats-card__figure">3K</p>
+                <h4 class="stats-card__title">CASES DONE</h4>
               </div>
               <div class="stats-card">
                 <img src="./assets/icons/linegraph.svg" alt="linegraph" />
-                <p>45</p>
-                <h4>HAPPY CUSTOMERS</h4>
+                <p class="stats-card__figure">45</p>
+                <h4 class="stats-card__title">HAPPY CUSTOMERS</h4>
               </div>
               <div class="stats-card">
                 <img src="./assets/icons/medal.svg" alt="medal-icon" />
-                <p>12+</p>
-                <h4>AWARD WINNING</h4>
+                <p class="stats-card__figure">12+</p>
+                <h4 class="stats-card__title">AWARD WINNING</h4>
               </div>
               <div class="stats-card">
                 <img src="./assets/icons/brief-case.svg" alt="brief-case" />
-                <p>1.5K</p>
-                <h4>CASES DONE</h4>
+                <p class="stats-card__figure">1.5K</p>
+                <h4 class="stats-card__title">CASES DONE</h4>
               </div>
             </div>
           </div>
@@ -151,55 +180,149 @@
       <section class="advice">
         <div class="container">
           <div class="advice-wrapper">
-            <h2 class="section-heading">Practice Advice</h2>
-            <p>
-              Problems trying to resolve the conflict between the two major
-              realms of Classical physics: Newtonian mechanics
+            <h2 class="section__title">Practice Advice</h2>
+            <p class="section__subtitle">
+              Problems trying to resolve the conflict between <br />
+              the two major realms of Classical physics: Newtonian mechanics
             </p>
             <div class="advice-cards">
               <div class="advice-card">
                 <div class="advice-card-top">
-                  <h4></h4>
-                  <p></p>
+                  <h4 class="advice-card__title">
+                    A single source <br />
+                    of truth
+                  </h4>
+                  <p class="advice-card__text">
+                    Newton thought that light was made up of particles, but then
+                    it was discovered
+                  </p>
                 </div>
-                <img src="" alt="" />
+                <img
+                  class="advice-card__img"
+                  src="./assets/images/media.png"
+                  alt=""
+                />
               </div>
-            </div>
-            <div class="advice-cards">
               <div class="advice-card">
                 <div class="advice-card-top">
-                  <h4></h4>
-                  <p></p>
+                  <h4 class="advice-card__title">
+                    Fastest way to <br />
+                    organize
+                  </h4>
+                  <p class="advice-card__text">
+                    “Quantum mechanics” is the description of the behaviour of
+                    matter
+                  </p>
                 </div>
-                <img src="" alt="" />
+                <img
+                  class="advice-card__img"
+                  src="./assets/images/cover.png"
+                  alt=""
+                />
               </div>
-            </div>
-            <div class="advice-cards">
               <div class="advice-card">
                 <div class="advice-card-top">
-                  <h4></h4>
-                  <p></p>
+                  <h4 class="advice-card__title">
+                    Fastest way to <br />
+                    take action
+                  </h4>
+                  <p class="advice-card__text">
+                    They describe a universe consisting of bodies moving
+                  </p>
                 </div>
-                <img src="" alt="" />
+                <img
+                  class="advice-card__img"
+                  src="./assets/images/get-shit-done.png"
+                  alt=""
+                />
               </div>
-            </div>
-            <div class="advice-cards">
               <div class="advice-card">
                 <div class="advice-card-top">
-                  <h4></h4>
-                  <p></p>
+                  <h4 class="advice-card__title">
+                    Work better <br />
+                    together
+                  </h4>
+                  <p class="advice-card__text">
+                    They finally obtained a consistent description of the
+                    behaviour
+                  </p>
                 </div>
-                <img src="" alt="" />
+                <img
+                  class="advice-card__img"
+                  src="./assets/images/mac-workplace.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- ADVICE SECTION END -->
+
+      <!-- BEST-SERVICE SECTION START -->
+      <section class="service">
+        <div class="container">
+          <div class="service-wrapper">
+            <h2 class="section__title">
+              We are providing best <br />
+              business service.
+            </h2>
+            <p class="section__subtitle">
+              Problems trying to resolve the conflict between the two major
+              realms <br />
+              of Classical physics: Newtonian mechanics
+            </p>
+            <div class="service-info">
+              <img src="./assets/images/office.png" />
+              <div class="service-info-right">
+                <h4 class="service-info__title">Most trusted in our field</h4>
+                <p class="service-info__text">
+                  Most calendars are designed for teams. Slate is designed for
+                  freelancers who want a simple way to plan their schedule.
+                </p>
+                <ul class="service-info__list">
+                  <li class="service-info__item item-1">
+                    <img
+                      class="service-info-item__img"
+                      src="./assets/icons/crowd.svg"
+                      alt=""
+                    />
+                    <p>
+                      the quick fox jumps over the lazy dog <br />
+                      <span class="service-info-item__substring"
+                        >Things on a very small scale ...</span
+                      >
+                    </p>
+                  </li>
+                  <li class="service-info__item item-2">
+                    <img
+                      class="service-info-item__img"
+                      src="./assets/icons/speed-bar.svg"
+                      alt=""
+                    />
+                    <p>
+                      the quick fox jumps over the lazy dog <br /><span
+                        class="service-info-item__substring"
+                        >Things on a very small scale ...</span
+                      >
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BEST-SERVICE SECTION END -->
     </main>
     <!-- MAIN SECTION END -->
     <!-- FOOTER START -->
 
     <!-- FOOTER END -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
   </body>
 </html>
