@@ -3,6 +3,7 @@
   --secondary-text-color: rgb(115, 115, 115);
   --primary-color: rgb(255, 166, 43);
   --secondary-color: rgb(0, 160, 193);
+  --bg-newsletter: rgb(22, 105, 122);
   --bg-secondary: #f3f3f3;
   --bg-body: #fafafa;
   --bg-header: #f7f7f7;
@@ -264,6 +265,7 @@ body {
 .stats-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   margin-top: 50px;
 }
@@ -297,9 +299,10 @@ body {
 .advice-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 38px;
   margin-top: 45px;
-  align-items: flex-start;
 }
 
 .advice-card {
@@ -344,6 +347,7 @@ body {
 .service-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 100px;
 }
 
@@ -402,6 +406,66 @@ body {
   letter-spacing: 0.2px;
 }
 /* BEST-SERVICE SECTION START */
+/* NEWSLETTER SECTION START */
+.newsletter {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bg-body) 77.3%,
+    var(--primary-text-color) 22.7%
+  );
+  padding-bottom: 20px;
+}
+
+.newsletter__companies-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.newsletter-subscribe {
+  margin: 20px 36px 0;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-newsletter);
+}
+
+.newsletter-subscribe__text {
+  color: #fff;
+  font-size: var(--text-3);
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.newsletter__search-form {
+  display: flex;
+  width: 450px;
+}
+
+.newsletter-subscribe__input {
+  padding: 15px 0 15px 20px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.newsletter-subscribe__button {
+  padding: 0 22.5px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: var(--text-1);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+/* NEWSLETTER SECTION END */
 /* MAIN END */
 
 /* MEDIA QUERY START */
